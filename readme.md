@@ -4,6 +4,7 @@
 
 ## Test Framework
 
+- The Framework is written in Typescript using webdriverio, appium, mocha. 
 - This Framework supports both android and iOS mobile app automation.
 - This Framework supports parallel execution for iOS and android.
 - This Framework is totally compatible with Jenkins.
