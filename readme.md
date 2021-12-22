@@ -26,6 +26,9 @@ npm install
 ## Running Tests
 Run all tests. Mocha will look for test folder. If you need to use another folder, please specify it in package.json file.
 
+Note -   Please update the mobile device udid before execution in src/config/android.js > config.capabilities > udid
+(you can get it by running `adb devices` command in terminal) Also have the Linkedin application installed and logged in before execution.
+
 To run app test case on android please run :
 
 ```sh
