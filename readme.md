@@ -9,6 +9,9 @@
 - This Framework is totally compatible with Jenkins.
 - This Framework is a data driven framework.
 - This Framework supports runtime config based execution
+- The Framework is integrated with Allure reports for reporting
+- The Framework follows interface based design to easily accomodate Android and iOS both in same codebase
+- The Framework can be scaled to accomodate multicountry tests as well
 
 
 ## Pre-requisites
@@ -49,11 +52,20 @@ To generate Allure Report please run :
 npm run report
 ```
 
+Reports -
+Reports will contain the failure message and screenshots
+![Screenshot 2021-12-22 at 16 19 03](https://user-images.githubusercontent.com/49683348/147116963-a8226971-ba2e-4e89-a9ce-32336d9c1960.png)
+![Screenshot 2021-12-22 at 16 06 09](https://user-images.githubusercontent.com/49683348/147117003-1743e717-9941-4f14-af05-47b6b8735aa5.png)
+
+
 ## Assignment Details :
 - A Basic framework with above-mentioned capabilities for mobile app
 - A sample testcase for android app
 - Same testcase can be executed for ios (No need to have two separate test/spec files for Android and iOS)
 - Based on the execution command the factory class initialises the android or ios screen classes to get required UI elements
+
+### Test Data :
+- Test Data is stored in src/test/test-data/linkedin.ts
 
 ### Test case details - 
 - Due to the lack of staging app availability the test case is automated for production app of Linkedin
