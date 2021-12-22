@@ -7,7 +7,7 @@ describe(`Linked In`, () => {
     before(() => {
         // utils.clearAppData()
         // utils.allowPermissions()
-        // commented as we are using a logged in app otherwise there would be a login everytime
+        // commented as i am are using a logged in app otherwise there would be a login everytime
     });
 
     it('Already logged in user searching for a company', () => {
