@@ -1,0 +1,12 @@
+# Ignore Mac system files
+.DS_store
+
+.idea/
+
+**/built/
+
+allure-results
+
+allure-reports
+
+node_modules
